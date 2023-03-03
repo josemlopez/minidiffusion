@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment files
+.env
+venv/
+
+# Other files
+.DS_Store
+
+# Ignoring the execution files and the results
+results/
+runs/
+models/
