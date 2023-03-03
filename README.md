@@ -1,9 +1,8 @@
 # minidiffusion
 Diffusion model in a few lines of code. Code explained in detail.
 
-
-This code is mainly for my own learning process of all the details of a diffusion model. 
-It flows the paper https://arxiv.org/pdf/2006.11239.pdf "Denoising Diffusion Probabilistic Models" and I tried to ignore anything that is not related to the paper.
+This code is mainly for my understanding of all the details of a diffusion model to the last detail.
+It follows the paper https://arxiv.org/pdf/2006.11239.pdf "Denoising Diffusion Probabilistic Models" and I tried to ignore anything that is not related to the paper.
 
 The code has different parts:
 
