@@ -28,4 +28,15 @@ To-Do:
 * Add WandB support for logging and checking the evolution of the model during training
 * Add conditional diffusion so we can train on images with labels
 
+## Usage
+1) Download the dataset from https://www.kaggle.com/datasets/arnaud58/landscape-pictures
+2) Run the train.py file
+
+## Performance
+* In a RTX 4090 the training takes 56 seconds per epoch with 27it/s
+* This model with the current batch 12 for images of 64x64 uses aprox 20GB of GPU memory, so you need to be careful if you are using a T4 in Google Colab.
+* This model can be perfectly trained in Google Colab with a t4 GPU, it will just take a little more time, but it is free.
+
+
+
 
